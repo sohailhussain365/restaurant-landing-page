@@ -2,7 +2,7 @@ import React from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
-import { motion, useReducedMotion, type Variants } from "framer-motion";
+import { motion, useReducedMotion, type Variants, type TargetAndTransition } from "framer-motion";
 
 const fadeUp: Variants = {
   hidden: { opacity: 0, y: 40 },
@@ -251,7 +251,7 @@ export const HomePage = (): JSX.Element => {
             alt={image.alt}
             src={image.src}
             initial={{ opacity: 0 }}
-            animate={{ opacity: 1, ...(index % 2 === 0 ? float : slowFloat) }}
+            animate={(index % 2 === 0 ? { opacity: 1, ...float } : { opacity: 1, ...slowFloat }) as TargetAndTransition}
             transition={{ opacity: { duration: 1.2, delay: 0.2 } }}
           />
         ))}
