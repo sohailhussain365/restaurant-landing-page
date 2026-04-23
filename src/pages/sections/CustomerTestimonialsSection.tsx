@@ -5,34 +5,34 @@ import { useIntersectionObserver } from "@/hooks/useIntersectionObserver";
 const testimonials = [
   {
     id: 1,
-    name: "Sarah M.",
-    location: "Morgan Hill, CA",
+    name: "Fatima A.",
+    location: "Lahore, Pakistan",
     avatar: "/figmaAssets/ellipse-27.png",
-    text: "Super friendly staff and great tasting donuts! The apple fritter is absolutely incredible — I drive out of my way just for it.",
+    text: "Al Aziz serves the most authentic Chicken Karai I've ever tasted! The flavors are incredible and the service is warm and welcoming. A true gem for desi food lovers.",
     stars: 5,
   },
   {
     id: 2,
-    name: "James R.",
-    location: "Gilroy, CA",
+    name: "Ahmad R.",
+    location: "Karachi, Pakistan",
     avatar: "/figmaAssets/ellipse-27-1.png",
-    text: "Best donuts ever, very fresh selection every morning. The sticky buns are out of this world. Family-owned and it really shows.",
+    text: "The Desi Murga Karai is absolutely delicious — prepared exactly how it should be. Every visit reminds me of home. Family-owned and it truly shows in their dedication.",
     stars: 5,
   },
   {
     id: 3,
-    name: "Linda K.",
-    location: "San Jose, CA",
+    name: "Ayesha K.",
+    location: "Islamabad, Pakistan",
     avatar: "/figmaAssets/ellipse-27.png",
-    text: "Their burgers honestly compete with In-N-Out — I was shocked. A wonderful family atmosphere, the whole team makes you feel welcome.",
+    text: "Their Chicken Tikka is perfection! Fresh, flavorful, and made with genuine care. The lemon soda completes the meal beautifully. Highly recommended!",
     stars: 5,
   },
   {
     id: 4,
-    name: "Mike T.",
-    location: "Morgan Hill, CA",
+    name: "Hassan T.",
+    location: "Lahore, Pakistan",
     avatar: "/figmaAssets/ellipse-27-1.png",
-    text: "Sunday morning tradition for our whole family. The croissants are buttery perfection and the glazed donuts are always fresh.",
+    text: "Best desi restaurant experience! From the Shish Kebab Boti to the Kher dessert, everything tastes authentic. Al Aziz brings traditional Pakistani flavors to life beautifully.",
     stars: 5,
   },
 ];
@@ -62,8 +62,8 @@ export const CustomerTestimonialsSection = (): JSX.Element => {
               <Star key={s} className="w-4 h-4 fill-yellow-400 text-yellow-400" />
             ))}
           </div>
-          <span className="[font-family:'Montserrat',Helvetica] font-bold text-[#1a0a1e] text-[16px]">4.6</span>
-          <span className="[font-family:'Montserrat',Helvetica] text-[#888] text-[14px]">· 281 Google Reviews</span>
+          <span className="[font-family:'Montserrat',Helvetica] font-bold text-[#1a0a1e] text-[16px]">4.1</span>
+          <span className="[font-family:'Montserrat',Helvetica] text-[#888] text-[14px]">· 542 Google Reviews</span>
         </div>
       </div>
 

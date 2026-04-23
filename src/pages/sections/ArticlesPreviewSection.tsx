@@ -4,20 +4,20 @@ const articles = [
   {
     id: 1,
     image: "/figmaAssets/rectangle-332.png",
-    title: "Why Our Apple Fritters Are Morgan Hill's Best",
-    date: "Daily",
+    title: "The Art of Perfect Chicken Karai — A Desi Tradition",
+    date: "Cooking",
   },
   {
     id: 2,
     image: "/figmaAssets/rectangle-332-1.png",
-    title: "The Story Behind Our Family-Owned Donut Shop",
-    date: "Local",
+    title: "Al Aziz's Journey — Bringing Authentic Pakistani Cuisine",
+    date: "Our Story",
   },
   {
     id: 3,
     image: "/figmaAssets/rectangle-332-2.png",
-    title: "Fresh Baked Every Morning — Our Promise to You",
-    date: "Fresh",
+    title: "From Family Recipe to Your Table — Desi Excellence",
+    date: "Heritage",
   },
 ];
 
@@ -31,10 +31,10 @@ export const ArticlesPreviewSection = (): JSX.Element => {
         <div className="flex items-end justify-between mb-10">
           <div data-scroll>
             <p className="[font-family:'Montserrat',Helvetica] font-semibold text-[#973499] text-[12px] tracking-[0.22em] uppercase mb-1" style={{ "--animation-delay": "0.06s" } as any}>
-              Our Story
+              Pakistani Cuisine
             </p>
             <h2 className="[font-family:'Montserrat',Helvetica] font-extrabold text-[#1a0a1e] text-[36px] leading-[44px]" style={{ "--animation-delay": "0.1s" } as any}>
-              A Taste of Who We Are
+              Desi Flavors & Culinary Stories
             </h2>
           </div>
           <span className="[font-family:'Montserrat',Helvetica] text-[#973499] text-[14px] font-semibold cursor-pointer hover:text-[#7a2a7a] transition-colors">

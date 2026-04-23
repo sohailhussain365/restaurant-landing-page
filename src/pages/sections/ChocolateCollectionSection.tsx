@@ -5,30 +5,30 @@ const features = [
   {
     id: 1,
     Icon: Star,
-    title: "Classic & Specialty Donuts",
-    description: "From timeless glazed rings to bold specialty flavors, baked fresh every morning with authentic recipes.",
+    title: "Chicken Karai & Tikka",
+    description: "Our signature chicken preparations — slow-cooked in traditional Pakistani spices with authentic desi flavors that celebrate culinary heritage.",
   },
   {
     id: 2,
     Icon: Sparkles,
-    title: "Apple Fritters & Pastries",
-    description: "Our apple fritters and sticky buns are legendary — flaky, buttery, and made from scratch with love.",
+    title: "Desi Karai Specialties",
+    description: "Desi Murga Karai, Shish Kebab Boti, and Karai Mutton — prepared fresh with premium ingredients and time-honored recipes.",
   },
   {
     id: 3,
     Icon: Flame,
-    title: "Burgers & More",
-    description: "Our burgers compete with In-N-Out. Bold claim, but our customers agree. Crispy, juicy, perfect.",
+    title: "Authentic Sides & Beverages",
+    description: "Kher, Fried Fish, and refreshing Lemon Soda complete the experience — every dish tells a story of Pakistani excellence.",
   },
 ];
 
 const highlights = [
-  "Fresh baked every single morning",
-  "Premium locally-sourced ingredients",
-  "Family recipes passed down for decades",
-  "No frozen dough, no shortcuts",
-  "Hand-crafted with attention to detail",
-  "Fast, friendly, and warm service",
+  "Prepared fresh daily with premium ingredients",
+  "Traditional Pakistani recipes and cooking methods",
+  "Family-owned with decades of culinary expertise",
+  "No artificial preservatives, only authentic flavors",
+  "Hand-crafted desi cooking with care and passion",
+  "Warm hospitality and excellent service",
 ];
 
 export const ChocolateCollectionSection = (): JSX.Element => {
@@ -47,21 +47,21 @@ export const ChocolateCollectionSection = (): JSX.Element => {
           className="[font-family:'Montserrat',Helvetica] font-bold text-[#973499] text-[11px] tracking-[0.3em] uppercase inline-block mb-2"
           style={{ "--animation-delay": "0.06s" } as any}
         >
-          ✨ Our Collection
+          🌶️ Our Collection
         </span>
         <h2 
           data-scroll
           className="[font-family:'Montserrat',Helvetica] font-black text-[#1a0a1e] text-[48px] leading-[56px] mb-3"
           style={{ "--animation-delay": "0.1s" } as any}
         >
-          Artisan Quality, Every Single Day
+          Desi Flavors, Crafted with Passion
         </h2>
         <p 
           data-scroll
           className="[font-family:'Montserrat',Helvetica] text-[#555] text-[15px] leading-[26px] max-w-[800px]"
           style={{ "--animation-delay": "0.14s" } as any}
         >
-          Since opening our doors, we've been committed to one simple promise: bake everything fresh, use only premium ingredients, and treat every customer like family.
+          Since opening our doors, we've been committed to one simple promise: prepare everything fresh using traditional Pakistani recipes, use only premium ingredients, and treat every customer like family.
         </p>
       </div>
 
@@ -109,7 +109,7 @@ export const ChocolateCollectionSection = (): JSX.Element => {
         <div className="lg:col-span-1 flex flex-col gap-4">
           <div>
             <h3 className="[font-family:'Montserrat',Helvetica] font-bold text-[#1a0a1e] text-[16px] leading-[24px] mb-4">
-              Why O'Henry's Stands Out
+              Why Al Aziz Stands Out
             </h3>
           </div>
           <div className="space-y-2">

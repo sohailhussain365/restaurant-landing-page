@@ -17,19 +17,18 @@ export const HeroPromotionSection = (): JSX.Element => {
         {/* Eyebrow */}
         <div className="inline-flex items-center gap-2 border border-[#d4a8e0] rounded-full px-4 py-1.5 bg-[#f9f0ff] shadow-sm">
           <span className="[font-family:'Montserrat',Helvetica] font-medium text-[#7a00cc] text-[12px] tracking-[0.18em] uppercase">
-            Family-Owned · Morgan Hill, CA
+            Family-Owned · Authentic Desi Kitchen
           </span>
         </div>
 
         {/* Headline */}
         <h1 className="font-extrabold text-[50px] tracking-[-0.5px] leading-[60px] bg-[linear-gradient(120deg,#81008c_0%,#540096_100%)] [-webkit-background-clip:text] bg-clip-text [-webkit-text-fill-color:transparent] [font-family:'Montserrat',Helvetica]">
-          Fresh donuts, baked with love every morning
+          Authentic Desi Flavors, Prepared with Tradition
         </h1>
 
         {/* Sub */}
         <p className="[font-family:'Montserrat',Helvetica] text-[16px] text-[#555] leading-[27px] max-w-[460px]">
-          Apple fritters, sticky buns, croissants and burgers made fresh daily — 
-          right here at Vineyard Town Center.
+          Chicken Karai, Tikka, Desi Murga Karai, Shish Kebab Boti, and more — all prepared fresh with traditional Pakistani recipes that celebrate authentic taste.
         </p>
 
         {/* CTAs */}
@@ -42,20 +41,20 @@ export const HeroPromotionSection = (): JSX.Element => {
             View Our Menu
           </a>
           <a
-            href="tel:+14087785955"
+            href="tel:+923029380823"
             className="no-underline inline-flex items-center justify-center gap-2 px-7 py-3 rounded-full border border-[#973499] text-[#973499] [font-family:'Montserrat',Helvetica] font-semibold text-[15px] hover:bg-[#f5eeff] transition-colors duration-200"
           >
             <Phone className="w-4 h-4" />
-            Call Us
+            Call Us Today
           </a>
         </div>
 
         {/* Info pills */}
         <div className="flex flex-wrap gap-2 mt-1">
           {[
-            { icon: <Star className="w-3.5 h-3.5 fill-yellow-400 text-yellow-400" />, text: "4.6 · 281 Reviews" },
-            { icon: <Clock className="w-3.5 h-3.5 text-[#973499]" />, text: "Open · Closes 4 PM" },
-            { icon: <Tag className="w-3.5 h-3.5 text-[#973499]" />, text: "$1 – $10" },
+            { icon: <Star className="w-3.5 h-3.5 fill-yellow-400 text-yellow-400" />, text: "4.1 · 542 Reviews" },
+            { icon: <Clock className="w-3.5 h-3.5 text-[#973499]" />, text: "Open · Closes 10 PM" },
+            { icon: <Tag className="w-3.5 h-3.5 text-[#973499]" />, text: "$5 – $25" },
             { icon: <MapPin className="w-3.5 h-3.5 text-[#973499]" />, text: "Dine-in · Takeout · Delivery" },
           ].map((item) => (
             <div

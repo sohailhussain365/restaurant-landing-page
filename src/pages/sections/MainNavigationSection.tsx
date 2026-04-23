@@ -79,12 +79,12 @@ export const MainNavigationSection = (): JSX.Element => {
             </button>
             <div className="w-px h-6 bg-[#e8d8f0] mx-1" />
             <a
-              href="tel:+14087785955"
+              href="tel:+923029380823"
               data-testid="button-order"
               className="no-underline inline-flex items-center gap-2 px-5 py-2 rounded-full bg-[#973499] text-white [font-family:'Montserrat',Helvetica] font-semibold text-[14px] whitespace-nowrap hover:bg-[#7a2a7a] transition-colors duration-200"
             >
               <Phone className="w-3.5 h-3.5" />
-              Call to Order
+              Order Now
             </a>
           </div>
 

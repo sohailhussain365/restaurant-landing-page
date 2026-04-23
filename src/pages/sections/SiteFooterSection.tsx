@@ -3,12 +3,12 @@ import { MapPin, Phone, Globe, Clock, Facebook, Instagram, Linkedin } from "luci
 const contactInfo = [
   {
     Icon: MapPin,
-    text: "500 Vineyard Town Center Way\nMorgan Hill, CA 95037",
-    href: "https://maps.google.com/?q=500+Vineyard+Town+Center+Way,+Morgan+Hill,+CA+95037",
+    text: "Al Aziz Restaurant\nAuthentic Desi Cuisine",
+    href: null,
   },
-  { Icon: Phone, text: "+1 408-778-5955", href: "tel:+14087785955" },
-  { Icon: Globe, text: "ohenrysdonuts.com", href: "https://ohenrysdonuts.com" },
-  { Icon: Clock, text: "Open daily · Closes at 4 PM", href: null },
+  { Icon: Phone, text: "0302 9380823", href: "tel:+923029380823" },
+  { Icon: Globe, text: "alazizrestaurant.com", href: "https://alazizrestaurant.com" },
+  { Icon: Clock, text: "Open daily · Closes at 10 PM", href: null },
 ];
 
 const usefulLinks = [
@@ -36,7 +36,7 @@ export const SiteFooterSection = (): JSX.Element => {
               />
             </div>
             <p className="[font-family:'Montserrat',Helvetica] text-[14px] text-[#9b7aaa] leading-[25px] max-w-[320px]">
-              Morgan Hill's favorite family-owned donut shop. Fresh donuts, pastries and burgers made with love every single morning.
+              Al Aziz is a family-owned restaurant dedicated to authentic Pakistani desi cuisine. We prepare traditional dishes with passion and pride, bringing genuine flavors to your table.
             </p>
             {/* Social icons */}
             <div className="flex items-center gap-2 mt-1">
@@ -113,7 +113,7 @@ export const SiteFooterSection = (): JSX.Element => {
         {/* Bottom row */}
         <div className="flex items-center justify-between pt-6 flex-wrap gap-3">
           <p className="[font-family:'Montserrat',Helvetica] text-[13px] text-[#5a3a6a]">
-            © {new Date().getFullYear()} O'Henry's Donuts. All rights reserved.
+            © {new Date().getFullYear()} Al Aziz Restaurant. All rights reserved.
           </p>
           <div className="flex gap-6">
             {["Privacy Policy", "Terms of Service"].map((label) => (

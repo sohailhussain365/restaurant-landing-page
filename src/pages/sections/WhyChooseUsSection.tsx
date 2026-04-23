@@ -4,30 +4,30 @@ import { useIntersectionObserver } from "@/hooks/useIntersectionObserver";
 const reasons = [
   {
     id: 1,
-    title: "Baked Fresh Daily",
+    title: "Prepared Fresh Daily",
     description:
-      "Everything is prepared each morning using only premium ingredients, never frozen or pre-made.",
+      "Every dish is cooked fresh to order using traditional Pakistani methods and premium ingredients — never pre-made.",
     icon: Sparkles,
   },
   {
     id: 2,
-    title: "Family-Run Craftsmanship",
+    title: "Authentic Desi Heritage",
     description:
-      "Decades of baking skill and thoughtful hospitality make every bite feel like home.",
+      "Family recipes passed down with decades of expertise in traditional Pakistani cuisine and desi cooking excellence.",
     icon: Heart,
   },
   {
     id: 3,
-    title: "Local Taste Favorites",
+    title: "Premium Quality",
     description:
-      "Sourced from trusted local producers so every pastry bursts with authentic flavor.",
+      "We source the finest ingredients to create authentic flavors that celebrate Pakistani culinary traditions.",
     icon: Leaf,
   },
   {
     id: 4,
-    title: "Fast & Friendly Service",
+    title: "Warm Hospitality",
     description:
-      "From quick takeout to leisurely dine-in, your order is served with care and speed.",
+      "From quick takeout to leisurely dine-in, your visit is welcomed with genuine warmth and excellent service.",
     icon: Clock,
   },
 ];
@@ -40,13 +40,13 @@ export const WhyChooseUsSection = (): JSX.Element => {
       <div className="flex flex-col gap-10 lg:gap-14">
         <div className="max-w-[750px]">
           <span className="[font-family:'Montserrat',Helvetica] font-semibold text-[#973499] text-[12px] tracking-[0.22em] uppercase mb-3 inline-block animate-pop" style={{ "--animation-delay": "0.05s" } as any}>
-            Why We’re Loved
+            Why We're Beloved
           </span>
           <h2 className="[font-family:'Montserrat',Helvetica] font-extrabold text-[#1a0a1e] text-[38px] leading-[46px] max-w-[680px] animate-fade-up" style={{ "--animation-delay": "0.1s" } as any}>
-            Craft, comfort, and flavor that make every visit unforgettable
+            Authentic Desi Flavors and True Hospitality
           </h2>
           <p className="[font-family:'Montserrat',Helvetica] text-[#555] text-[16px] leading-[28px] mt-5 max-w-[720px] animate-fade-in" style={{ "--animation-delay": "0.15s" } as any}>
-            Our team blends bakery tradition with bold seasonal creativity so each item feels special, delightful, and worth sharing.
+            Our team celebrates Pakistani culinary tradition with passion and pride. Every dish is prepared with authentic recipes and genuine care.
           </p>
         </div>
 
